@@ -2,6 +2,6 @@
 
 #### Under construction
 
-<p>Published at [lolliesnotsweets.co]: https://lolliesnotsweets.co</p>
+<p>Published at https://lolliesnotsweets.co</p>
 
 <p>Photo by Duangphorn Wiriya on Unsplash</p>
