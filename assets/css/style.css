@@ -1,0 +1,28 @@
+body,
+html {
+  height: 100%;
+}
+
+.title {
+  font-size: 10vh;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  margin-top: 50vh;
+  text-align: center;
+}
+
+.lollies {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+
+  z-index: -1;
+  position: absolute;
+
+  opacity: 25%;
+
+  margin-top: -10px;
+  margin-left: -10px;
+}
