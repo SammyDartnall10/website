@@ -1,12 +1,14 @@
 {
   "name": "website",
   "version": "1.0.0",
+  "homepage":"https://lolliesnotsweets.co/",
   "description": "#### Under construction",
   "main": "index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "deploy": "gh-pages -d build",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,6 +27,7 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.8",
     "eslint-plugin-react-hooks": "^4.6.0",
+    "gh-pages": "^6.1.1",
     "prettier": "^2.7.1",
     "vite": "^3.1.4"
   },
@@ -36,6 +39,5 @@
   },
   "bugs": {
     "url": "https://github.com/SammyDartnall10/website/issues"
-  },
-  "homepage": "https://github.com/SammyDartnall10/website#readme"
+  }
 }
