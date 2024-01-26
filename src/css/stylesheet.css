@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    color: grey;
+}
+
+body {
+    background-color: #81a69b;
+    background-image: url(../images/bright.jpg);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+   
+  background-size: 100vw;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 6em;
+    
+  }
+
+h2 {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 3em;
+  }
+
+.buffer{
+    width: 10vw;
+    color: grey;
+}
+
+.logo {
+    color: white;
+    text-align: left;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+
+
+.container {
+    font-family: arial;
+    font-size: 24px;
+    margin: 25px;
+    height: 200px;
+    outline: dashed 1px black;
+    /* Center vertically */
+    display: flex;
+    align-items: center;
+  }
+
+  .child {
+    background-color: white;
+    margin-top: 10px;
+    width: 80vw;
+  }
+
+
+/* 
+.lollies {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+  
+    z-index: -1;
+    position: absolute;
+  
+    opacity: 25%;
+  
+    margin-top: -10px;
+    margin-left: -10px;
+  } */
