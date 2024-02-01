@@ -2,7 +2,7 @@
 import { createRoot } from "react-dom/client";
 import { Link, BrowserRouter, Routes, Route } from "react-router-dom";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import Experience from "./Experience";
+import APICall from "./APICall";
 // import Details from "./Details";
 // import SearchParams from "./SearchParams";
 
@@ -19,18 +19,31 @@ const App = () => {
   return (
     <BrowserRouter>
       <QueryClientProvider client={queryClient}>
-        <header>
-          <Link to="#" className="logo">
-            SD
-          </Link>
-        </header>
-        <h1>Samantha Dartnall</h1>
-        <h2>Software Developer</h2>
-        <div className="container">
-          <Experience />
-          <Experience />
-          <Experience />
+        <div className="navbar">
+          <div className="container">
+            <div className="logo">SD</div>
+            <ul className="nav">
+              <li>API</li>
+              <li>Resume</li>
+              <li>Download</li>
+            </ul>
+          </div>
         </div>
+
+        <header>
+          <div className="container">
+            <h1>Samantha Dartnall</h1>
+            <h2>Software Developer</h2>
+          </div>
+        </header>
+
+        <section className="boxes">
+          <div className="container">
+            <APICall />
+            <APICall />
+            <APICall />
+          </div>
+        </section>
         {/* <Routes> */}
         {/* <Route path="/details/:id" element={<Details />} />
           <Route path="/" element={<SearchParams />} /> */}
