@@ -32,16 +32,16 @@ const App = () => {
 
         <header>
           <div className="container">
-            <h1>Samantha Dartnall</h1>
+            <h1>SAMANTHA DARTNALL</h1>
             <h2>Software Developer</h2>
           </div>
         </header>
 
         <section className="boxes">
           <div className="container">
-            <APICall />
-            <APICall />
-            <APICall />
+            <APICall call={{ urlName: "about" }} />
+            <APICall call={{ urlName: "experience" }} />
+            <APICall call={{ urlName: "skills" }} />
           </div>
         </section>
         {/* <Routes> */}
